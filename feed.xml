@@ -5,6 +5,71 @@
     <link>https://github.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED</link>
     <description>从 EPUB 自动生成的 RSS 订阅源</description>
         <item>
+    <title>中国人口与城市 - 089 - 孩子出生之后.epub</title>
+    <description><![CDATA[<p style='color: #888;'>⏱ 预计阅读时间：11 分钟 (2629 字)</p><hr><p align="justify" height="0pt" width="3em">
+<font size="5">
+<b>孩子出生之后</b>
+</font>
+</p>
+<p align="justify" height="0pt" width="2em">父母年龄与孩子是否优秀，其实要讨论两个阶段，第一个阶段是怀胎十月。关于这方面，已经被讨论得比较充分了，包括怀孕难度增大，流产率增高，唐氏综合征的概率上升等等。应该说，高龄父母，尤其是高龄母亲确实在怀孕生子的整个过程中更坎坷一些，面临的风险也更大一些。</p>
+<p align="justify" height="0pt" width="2em">但对一个孩子的整个人生来说，在母亲子宫内的十个月仅仅是一个片段。一对二十岁出头的年轻父母和另一对已经进入而立之年的壮年父母，会分别自己的孩子带来什么？我这里要讨论的，就是在孩子出生之后将要发生的事情。</p>
+<p align="justify" height="0pt" width="2em">
+<b>体重</b>
+</p>
+<p align="justify" height="0pt" width="2em">新生儿体重和母亲的年龄一般被认为是存在一个倒 U 形关系，即随着母亲年龄的上升，新生儿体重先上升后下降，这个拐点一般出现在 30～35 岁。也就是说，过了 30 岁再生孩子，孩子的体格可能更大。但从下图可以看到，这个效应不是特别明显，各个年龄段的母亲所生的孩子，刚出生时的体重都是差不多的。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="436" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/89_Image00050.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">一些朋友可能会觉得，新生儿体重仅仅是一个侧面，也不一定是好事，何况比较重的新生儿可能还需要剖腹产。但事实上我们能发现，30～35 岁产妇孩子的体重较高这种现象，不仅在出生时出现，在孩子长大时仍然持续存在，其幅度甚至比出生时更大一些。下图显示，如果同样对比 7～8 岁的儿童重量，那么母亲生育年龄在 33 岁的孩子（54.7 斤）要比母亲生育年龄仅有 16 岁的孩子（41.7 斤）重整整 13 斤。而随着母亲生育年龄进一步增加，在生育年龄达到 38 岁时，7～8 岁儿童的体重又回到 40 斤左右。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="436" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/89_Image00019.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">对此我们可能仍然有疑问：</p>
+<p align="justify" height="0pt" width="2em">首先，体重更重，到底是不是好事？这个问题见仁见智，但对于绝大部分儿童来说，体重过轻一般常常是与“体弱多病”紧紧联系在一起的。</p>
+<p align="justify" height="0pt" width="2em">其次，儿童体重的差异，到底是由“新生儿体质”决定的，还是后天养育过程决定的？在体重这个变量上，先天和后天这两种效应很难分开，但分开这两种效应，对我们其实也没有多少帮助——因为这个数据模式本身已经足够有趣，而且即便研究发现后天养育过程对儿童体重的影响很大，我们也很难让一名 16 岁的母亲按照 33 岁的母亲的方式来养育孩子。</p>
+<p align="justify" height="0pt" width="2em">
+<b>身高</b>
+</p>
+<p align="justify" height="0pt" width="2em">可能“体重更重”并不是一个十分正面的词汇，但“身高更高”显然就是时下父母的追求了。身高是一个受到父母身高（基因影响）和孩子年龄影响很大的变量，因此，如果我们仅仅将儿童的身高平均，可能得到的是一个混杂了孩子年龄效应与父母身高效应的数据。我们对身高这个变量做如下处理：</p>
+<p align="justify" height="0pt" width="2em">首先，将一个孩子的身高减去该年龄段儿童的平均身高，即算出这个孩子比同年龄段的孩子高／低几厘米。</p>
+<p align="justify" height="0pt" width="2em">其次，用孩子的父母身高来回归身高数值在各个年龄段的离差。</p>
+<p align="justify" height="0pt" width="2em">最后，获得第二步回归时不能被父母身高所解释的残差。</p>
+<p align="justify" height="0pt" width="2em">此时，这个残差就是一个去除了年龄效应与父母基因效应的数值，仅仅包括了“新生儿体质”和后天养育过程两部分信息。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="436" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/89_Image00039.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">上图列出的就是这样一个孩子身高和母亲生育年龄之间的关系，拟合时我们不难发现同样存在一个倒 U 形的关系，即孩子的身高随着母亲生育时的年龄增加而先增大后减小（37 岁后的数据虽然均值大，但样本数量少，对整个倒 U 形没有影响）。使用二次拟合，我们可以找到身高的峰值——当母亲选择在 33 岁生育时，孩子的身高最高；而在 23 岁及之前生育的孩子，身高要比同龄人低 1 到 5 厘米左右。也许是因为先天身体条件不好，也许是因为后天养育中出现了什么问题，但不管什么原因，23 岁以前生的孩子比同龄人更矮是一个统计上显著的事实。</p>
+<p align="justify" height="0pt" width="2em">
+<b>健康</b>
+</p>
+<p align="justify" height="0pt" width="2em">30～35 岁的母亲生出的孩子不仅在出生时更重，在孩子长到 7～8 岁时也更高、更重；而 23 岁以前生出的孩子在身高体重方面都处于劣势。一种可能的原因是后者的身体较为孱弱。使用“一岁前孩子去过几次医院”这个变量，我们可以在一定程度上度量孩子的先天身体条件。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="436" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/89_Image00029.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">结果不出所料，新生儿一岁前看病的次数随着母亲年龄的上升呈现正 U 形，先下降后上升。使用二次拟合后，我们发现看病次数的最低点出现在 31 岁，而数据显示从 27 岁到 32 岁时出生的孩子的周岁前看病次数都相对较低，显得更为健康。</p>
+<p align="justify" height="0pt" width="2em">
+<b>教育水平与短期记忆力</b>
+</p>
+<p align="justify" height="0pt" width="2em">从前面的几个分析可以得出一个比较稳健的结论——30～35 岁时生出的孩子，不管是先天还是后天原因，身体更加强壮，更高大。但会不会有“四肢发达、头脑简单”的现象出现呢？可以首先从教育年限这个变量着手。像身高的分析一样，我们首先在每一个年龄段减去教育年限的均值，算出一个孩子比他同龄人高／低几年级，再用父母的教育水平来解释这个比同龄人更高／低的教育年限，随后剩下不能解释的部分，被认为是仅由母亲生育年龄所带来的先天和后天因素所共同导致的，而和其他基因等因素无关。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="436" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/89_Image00042.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">上图显示，虽然四肢发达，但头脑并不简单。30～32 岁母亲所生育的孩子，比他的同龄人要平均高出 0.1 年级左右。</p>
+<p align="justify" height="0pt" width="2em">短期记忆力也出现了相同的模式。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="436" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/89_Image00035.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">短期记忆力在调查中是这样测试的：调查员报出 10 个词语，被调查人在两分钟内记忆，并在两分钟之后复述。可以看见，母亲生育年龄在 26～35 岁的孩子比同龄人有着更好的短期记忆力，其中母亲生育年龄在 33 岁的表现最佳。</p>
+<p align="justify" height="0pt" width="2em">
+<b>结论</b>
+</p>
+<p align="justify" height="0pt" width="2em">从出生缺陷概率提高的角度，推迟生育似乎一无是处。但孩子的人生并不只有母亲子宫内的十个月。</p>
+<p align="justify" height="0pt" width="2em">根据以上分析，我们可以看到当母亲的生育年龄处于 30～35 岁这个区间时，孩子在 0～15 岁区间内，各方面的表现都更为出色。这里固然存在许多后天因素（30 多岁的母亲更会照顾孩子，更有经济实力来保障孩子的营养和教育），但我们是不是就能够完全否认先天因素的存在呢？恐怕仍然不行。选择在 30 岁之后生育，除在社会学上的好处之外，也许还有着生物学上的好处，虽然我们还不知道这些好处是什么。</p>
+<p align="justify" height="0pt" width="2em">最后，希望各位年轻女性能顶住社会上和来自亲朋好友的各种压力，坚持自己的选择。任何时候生育都有得有失，在自身和家庭都更加成熟时再要孩子，并没有那么可怕，还可能有许多额外好处呢。</p>
+<p align="justify" height="0pt" width="2em">注：</p>
+<p align="justify" height="0pt" width="2em">1. 所有数据均来自 CFPS2012，6453 个样本。</p>
+<p align="justify" height="0pt" width="2em">2. 本文不是学术论文，因此为了使得图表更具视觉冲击，每张图标的上下限被我人为筛选过，但计量结果十分显著。</p>
+<p align="justify" height="0pt" width="2em">3. 父亲的生育年龄对孩子的影响没有固定模式，因此我没有在文中做分析。除了一个情况：父亲生育越晚，孩子身高越低——因为身高比较矮的男性平均婚育年龄都晚。</p>
+<p align="justify" height="0pt" width="2em">2014-10-04</p>
+]]></description>
+    <pubDate>Wed, 22 Jul 2026 02:34:53 +0000</pubDate>
+    <guid isPermaLink="false">89</guid>
+</item>
+<item>
     <title>中国人口与城市 - 088 - 人口红利.epub</title>
     <description><![CDATA[<p style='color: #888;'>⏱ 预计阅读时间：10 分钟 (2358 字)</p><hr><p align="justify" height="0pt" width="3em">
 <font size="5">
