@@ -5,6 +5,117 @@
     <link>https://github.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED</link>
     <description>从 EPUB 自动生成的 RSS 订阅源</description>
         <item>
+    <title>中国人口与城市 - 094 - 城市的集聚.epub</title>
+    <description><![CDATA[<p style='color: #888;'>⏱ 预计阅读时间：17 分钟 (4145 字)</p><hr><p align="justify" height="0pt" width="3em">
+<font size="5">
+<b>城市的集聚</b>
+</font>
+</p>
+<p align="justify" height="0pt" width="2em">知乎网友问“我国人口预计 15 年内是会逐渐分散在大中小城市，还是继续向大城市集中？我们应留在大城市发展吗？”，以下是我对这个问题的回答。</p>
+<p align="justify" height="0pt" width="2em">
+<b>一、城市人口分布有何规律？</b>
+</p>
+<p align="justify" height="0pt" width="2em">Zipf 法则就是这么一个规律，它横跨众多学科，而且还能够很好地描述城市间的人口分布情况。在区域经济学中，Zipf 法则描述的是在一个国家，其人口数量排名第二的城市，是排名第一的城市人口的二分之一；排名第三的城市，是排名第一城市人口的三分之一。用数学公式表示如下：</p>
+<p align="justify" height="0pt" width="2em">在一个国家内，<img align="baseline" height="14" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/94_Image00033.jpg" width="14"/>
+ 表示城市 i 的城镇人口占该国家总城镇人口的比例，那么对于任意一个城市，其比例大于一个给定 S 的概率为：</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="30" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/94_Image00023.jpg" width="125"/>
+</p>
+<p align="justify" height="0pt" width="2em">其中 a 是一个常数。也就是说，如果规模在 S 以上的城市有 1 个，那么规模在 S/2 以上的城市就应该有两个，以此类推。再进一步地，可以理解为一个城市的人口排名和该城市的人口总数的成绩应该等于一个固定值。于是，各个城市人口排名的对数就应当与人口规模的对数成严格的负相关关系，即：</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="18" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/94_Image00024.jpg" width="177"/>
+</p>
+<p align="justify" height="0pt" width="2em">将美国的城市人口排序和每城市人口画成散点图，可以发现，Zipf 法则拟合的效果出乎意料地好。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="404" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/94_Image00036.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">上图来自文献 Zipf's Law for Cities: An Explanation 横坐标指每个城市的人口对数，纵坐标指的是人口的排序，在图中共有 135 个散点，他们几乎落在一条 -45°直线上，拟合优度达到 0.986。</p>
+<p align="justify" height="0pt" width="2em">只有美国是这样吗？不。城市人口分布的 Zipf 法则在历史上就已经出现，比如下图显示了十九世纪的中国和日本，来自 Urbanization in History。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="572" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/94_Image00004.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">事实上，在 1980 年发表的 The size distribution of cities: An examination of the Pareto law and primacy 中，作者对 20 世纪 70 年代的 44 个国家做了类似的检验，结果显示 Zipf 法则全部成立——用城市人口对数来拟合城市排名对数，绝大部分国家的拟合优度都大于 0.98，没有任何一个国家的拟合优度低于 0.95。</p>
+<p align="justify" height="0pt" width="2em">
+<b>二、为什么 Zipf 法则会自发产生？</b>
+</p>
+<p align="justify" height="0pt" width="2em">如果所有国家的城市人口分布最后都符合 Zipf 法则，那么我们要问的下一个问题是：到底是什么导致了 Zipf 法则的自发产生？</p>
+<p align="justify" height="0pt" width="2em">Xavier 在他的论文 Zipf's Law for Cities: An Explanation 中给出了一种简单而又美妙的答案：不需要任何条件，只要所有城市人口都以一个同分布的随机速度增长，那么最后的城市人口就会符合 Zipf 法则。这个简单的条件也是 Zipf 分布横跨语言、经济、地理数界的原因之一。</p>
+<p align="justify" height="0pt" width="2em">如果答案果真如此，那么所有国家都适用 Zipf 分布的事实便向我们揭示了另一个真相：在一个经济体内，不管城市多大，他的随机增长速度都来自同一个分布。也就是说，一个 1000 万人的大城市和一个 50 万人的小城镇，由于规模效应完全补偿了边际成本递增，大城市的增长速度并不会比小城市慢。</p>
+<p align="justify" height="0pt" width="2em">反过来，我们同样能说大城市的增长速度不会比小城市快。这也为一种常见的判断“放开户籍，全国人民都要来北上广”给出了反诘：如果没有人口流动的限制，大城市的增长速度只是回到和小城镇一样的水平而已。全国人民都要来北上广？吃饱了。</p>
+<p align="justify" height="0pt" width="2em">
+<b>三、Zipf 法则能描述中国吗？</b>
+</p>
+<p align="justify" height="0pt" width="2em">我们将 2010 年人口普查数据拿来，计算每一个地级市市辖区的城镇人口数量，并且排序，可得下图：</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="436" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/94_Image00034.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">如果用一条回归线来拟合中国的 300 多个地级市的市辖区人口，我们不难发现在人口数量小于 300 万的城市中，Zipf 法则严格成立，但对于 300 万人以上的大城市来说，人口比预测线要少很多。用这条线来拟合对数人口和对数排序，拟合优度也仅有 0.94，低于之前列出的所有研究。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="569" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/94_Image00049.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">上图来自 The size distribution of cities: An examination of the Pareto law and primacy，它显示了同样有着严格人口迁徙限制的苏联的情况，竟然也与 2010 年的中国如此相似。</p>
+<p align="justify" height="0pt" width="2em">而且，仔细观察不难发现，中国对 Zipf 法则的偏离更严重。苏联较大的几个城市虽然在预测线下方，但在最大前两个城市的散点又回到了预测线附近；而中国在 300 万以上大城市的散点则是越偏越远。</p>
+<p align="justify" height="0pt" width="2em">
+<b>四、为什么 Zipf 法则不能像拟合其他国家那样拟合中国？</b>
+</p>
+<p align="justify" height="0pt" width="2em">中国越大的城市会更多地偏离 Zipf 法则的预测，其根源就在于中国越大的城市增长得越慢。而回到 Zipf 法则的成立条件：世界各国之所以能用 Zipf 法则拟合，是因为其国内所有的城市人口都以一个同分布的随机速度增长。中国大城市增长速度更慢的原因一般来说有以下几条：</p>
+<p align="justify" height="0pt" width="2em">1. 户籍制度，以及捆绑在户籍制度上的福利，阻碍了劳动力迁徙。</p>
+<p align="justify" height="0pt" width="2em">2. 土地供给在全国层面下进行统筹，大城市反而无法得到足够的建设用地。</p>
+<p align="justify" height="0pt" width="2em">3. 其他各种阻碍人口增加的行政手段和经济手段，比如 2014 年的“严格控制 500 万以上人口特大城市的人口规模”。</p>
+<p align="justify" height="0pt" width="2em">
+<b>五、限制城市规模，我们为此付出了什么？</b>
+</p>
+<p align="justify" height="0pt" width="2em">一些答案提到了特大城市人口增加带来的资源、环境、交通拥堵等代价。我在这里则想谈谈，限制特大城市人口增长，我们会为此付出什么代价？</p>
+<p align="justify" height="0pt" width="2em">
+<b>1. 更无效率的生产</b>
+</p>
+<p align="justify" height="0pt" width="2em">Au 和 Henderson 的研究 Are Chinese Cities Too Small? 发现，中国的人均制造业增加值和城市规模间存在一条倒 U 形曲线，即每个城市按照其禀赋，存在一个“最优规模”。以每个城市的最优规模计算，中国有 51%到 62%的城市都规模过小，其结果是损失了平均产出的 17%。有四分之一的城市损失了 25%到 70%的平均产出。</p>
+<p align="justify" height="0pt" width="2em">
+<b>2. 更多失业</b>
+</p>
+<p align="justify" height="0pt" width="2em">陆铭等的研究《城市规模与包容性就业》发现，城市规模每扩大 1%，个人的就业概率平均提高 0.039～0.041 个百分点。较高技能和较低技能组别的劳动力均从城市规模的扩大中得到了好处，其中较低技能组别劳动力的受益程度最高。限制低技能劳动力来到大城市，将他们留在农村或者小城镇，会造成更多失业。</p>
+<p align="justify" height="0pt" width="2em">
+<b>3. 更多污染</b>
+</p>
+<p align="justify" height="0pt" width="2em">由于大城市有条件设置更发达的公共交通，经济学人的文章 Green growth: Shoots, greens and leaves 提到了这幅图：</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="299" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/94_Image00009.jpg" width="290"/>
+</p>
+<p align="justify" height="0pt" width="2em">即人口密度越高的城市，人均通勤造成的污染越低。The Greenness of China: Household Carbon Dioxide Emissions and Urban Development 这篇文章也发现，城市人口密度与出租车碳排放、公共汽车碳排放都呈现显著的负相关关系，平均每平方千米增加 1000 人会减少全年平均每户家庭出租车碳排放 0.424 吨，减少公共汽车碳排放 0.837 吨。城市增大，看似该城市的总污染增加，但由于人均污染减少，对于全国来说总污染反而减少了。</p>
+<p align="justify" height="0pt" width="2em">限制大城市规模，还有数不胜数的代价。大城市的教育回报率比小城市更高，限制大城市的规模，等于限制了一部分的教育发挥其效用；大城市的服务业发展更快，从而能够代替工业来进一步减少污染；大城市的人口集聚不仅减少了移民的收入不平等，还降低了全国的收入不平等……</p>
+<p align="justify" height="0pt" width="2em">
+<b>六、未来会如何？</b>
+</p>
+<p align="justify" height="0pt" width="2em">限制大城市人口增长的努力存在了几十年，从最近的一些政策来看，可能还会继续存在几年。这种努力成功了吗？也许算成功了，毕竟中国的大城市的增长速度显著变慢了，他们成功地偏离了 Zipf 法则，且越大的城市偏离越远；也许不算成功——许多人仍然在抱怨城市规模扩大给他们带来的各种不便，他们认为流动人口让大城市变成了大农村，或者抒发这样那样的情感“我的城市和小时候不一样了”。</p>
+<p align="justify" height="0pt" width="2em">阻止大城市的人口增长，最好的手段就是阻止人口向大城市流动。什么时候人口才会停止向大城市流动？当迁移到大城市的收益和自身要为此付出的成本相同时，迁移便停止。而当前的许多政策，正在人为地为迁移增加政策成本。</p>
+<p align="justify" height="0pt" width="2em">如果人口流动在这种情况下均衡，由于在人口迁移与否的决策中存在着政策成本的鸿沟，其结果就是大城市居民的福利远高于小城镇。政策成本越高，均衡时的福利差距越大。</p>
+<p align="justify" height="0pt" width="2em">所以，我们的问题可以归结到这一个选择上：是继续提高迁移成本，保护大城市居民的福利；还是在全国层面上通盘考虑，减少大城市在人口增长方面的限制，享受大城市在经济发展、就业和减少人均污染上带来的好处？</p>
+<p align="justify" height="0pt" width="2em">道理全部说完了，该做出选择了。</p>
+<p align="justify" height="0pt" width="2em">2014-03-25</p>
+<p align="justify" height="0pt" width="2em">——————</p>
+<p align="justify" height="0pt" width="2em">文中出现的链接：</p>
+<p align="justify" height="0pt" width="2em">1. Zipf's Law for Cities: An Explanation</p>
+<p align="justify" height="0pt" width="2em">
+<a href="http://qje.oxfordjournals.org/content/114/3/739.short">http://qje.oxfordjournals.org/content/114/3/739.short</a>
+  </p>
+<p align="justify" height="0pt" width="2em">2. The size distribution of cities: An examination of the Pareto law and primacy</p>
+<p align="justify" height="0pt" width="2em">
+<a href="http://www.sciencedirect.com/science/article/pii/0094119080900431">http://www.sciencedirect.com/science/article/pii/0094119080900431</a>
+  </p>
+<p align="justify" height="0pt" width="2em">3. Are Chinese Cities Too Small?</p>
+<p align="justify" height="0pt" width="2em">
+<a href="http://restud.oxfordjournals.org/content/73/3/549.short">http://restud.oxfordjournals.org/content/73/3/549.short</a>
+  </p>
+<p align="justify" height="0pt" width="2em">4. 城市规模与包容性就业</p>
+<p align="justify" height="0pt" width="2em">
+<a href="http://www.cqvip.com/qk/81908x/201210/43541476.html">http://www.cqvip.com/qk/81908x/201210/43541476.html</a>
+  </p>
+<p align="justify" height="0pt" width="2em">5. Green growth: Shoots, greens and leaves</p>
+<p align="justify" height="0pt" width="2em">
+<a href="http://www.economist.com/node/21556904">http://www.economist.com/node/21556904</a>
+  </p>
+<p align="justify" height="0pt" width="2em">6. The Greenness of China: Household Carbon Dioxide Emissions and Urban Development</p>
+<p align="justify" height="0pt" width="2em">
+<a href="http://www.nber.org/papers/w15621">http://www.nber.org/papers/w15621</a>
+  </p>
+]]></description>
+    <pubDate>Sat, 08 Aug 2026 01:27:59 +0000</pubDate>
+    <guid isPermaLink="false">94</guid>
+</item>
+<item>
     <title>中国人口与城市 - 093 - 户籍制度变迁.epub</title>
     <description><![CDATA[<p style='color: #888;'>⏱ 预计阅读时间：13 分钟 (3174 字)</p><hr><p align="justify" height="0pt" width="3em">
 <font size="5">
