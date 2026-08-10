@@ -5,6 +5,59 @@
     <link>https://github.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED</link>
     <description>从 EPUB 自动生成的 RSS 订阅源</description>
         <item>
+    <title>中国人口与城市 - 095 - 鬼城预测.epub</title>
+    <description><![CDATA[<p style='color: #888;'>⏱ 预计阅读时间：7 分钟 (1612 字)</p><hr><p align="justify" height="0pt" width="3em">
+<font size="5">
+<b>鬼城预测</b>
+</font>
+</p>
+<p align="justify" height="0pt" width="2em">如果把“鬼城”理解为“新建了许多房屋却没有人居住”的城市，那么只要算出未来将要竣工的住宅和未来会新增多少住宅需求，就可以预测出未来会出现哪些鬼城。这里的预测包括所有地级市的市辖区和县级市。</p>
+<p align="justify" height="0pt" width="2em">
+<b>新增住宅供给总面积的下限：</b>
+</p>
+<p align="justify" height="0pt" width="2em">从批地到竣工，一般的房地产公司需要 3～4 年，个别情况下会达到 5 年。为了后文的计算方便，我们假设现在出让的土地会在 5 年后上市形成住房供给。</p>
+<p align="justify" height="0pt" width="2em">根据国土资源部的土地交易数据，可以计算每一个地级市的市辖区或县级市在最近连续 5 年中所出让的住宅用地面积，在平均容积率等于 2 的假设下，即可得出 2015～2020 年将会竣工的住房总面积。</p>
+<p align="justify" height="0pt" width="2em">
+<b>新增住宅需求总面积的上限：</b>
+</p>
+<p align="justify" height="0pt" width="2em">新增住宅的上限由三部分组成：</p>
+<p align="justify" height="0pt" width="2em">1. 居住在农村自建房中的家庭搬迁至城市住宅内。即本地区城市化带来的需求。</p>
+<p align="justify" height="0pt" width="2em">2. 未来 5 年会流入的家庭数量。即其他地区人口迁入带来的需求。</p>
+<p align="justify" height="0pt" width="2em">3. 未来 5 年会结婚的夫妇数量。即家庭裂变带来的需求。</p>
+<p align="justify" height="0pt" width="2em">为了计算上限，我们不考虑任何死亡。同时要注意到，由于计算的是住宅总需求增加而非净需求增加，这里的计算也不包括改善型需求。（在总户数不增加时且老房子没有被拆掉的情况下，改善型需求总会造成房屋空置。）</p>
+<p align="justify" height="0pt" width="2em">我们使用 2000 年和 2010 年人口普查的数字来计算新增住宅需求的上限，再根据家庭平均人数和每人 30 平方米的住房面积，计算住宅总面积的需求上限。</p>
+<p align="justify" height="0pt" width="2em">两者综合后，将新增住宅供给的下限除以新增住宅需求的上限，就可以算出鬼城指数的第一个指标：新增住房可以容纳多少倍的新增家庭？</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="526" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/95_Image00041.jpg" width="269"/>
+</p>
+<p align="justify" height="0pt" width="2em">上面列出了前 20 名，其中内蒙古自治区呼伦贝尔下辖的根河市荣登榜首，其 2015～2020 年竣工的住宅面积，可以容纳同期新增家庭的 57 倍。辽宁、内蒙古和山东是鬼城多发地区。</p>
+<p align="justify" height="0pt" width="2em">但是这个指标有其缺陷。极端情况下，如果一个城市当前有 100 万家庭，但 5 年后仅仅新增 1 户家庭，那么即使是在根河市的情况下也不会很可怕——不就是多造了 56 户家庭嘛，对 100 万户的总体来说，空置率不会很高。因此，我们将新增供给减去新增需求，再用剩余的需求除以存量住房，这样就得出了鬼城指数的第二个指标：要拆掉多少比例的老住宅才能防止供过于求？</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="526" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/95_Image00048.jpg" width="269"/>
+</p>
+<p align="justify" height="0pt" width="2em">这回，著名鬼城鄂尔多斯荣登榜首：供给远大于需求，导致需要拆掉一半的老宅才能防止空置。内蒙古、辽宁、山东、黑龙江和安徽在这张榜上有一席之地。</p>
+<p align="justify" height="0pt" width="2em">设鬼城的定义为第一个指标大于 5，第二个指标大于 10%，那么可以列出一个有 46 个城市（地级市的市辖区或县级市）的榜单。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="386" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/95_Image00021.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">这 46 个城市，由于新增住宅供给远大于需求的上限，在 2015 年后很大概率上会成为所谓的“鬼城”。</p>
+<p align="justify" height="0pt" width="2em">评论里许多朋友想要看一线城市的数据，下面给出北上广深四个城市的情况，大城市的情况完全相反，未来五年的住宅供给是赶不上需求的，尤其是深圳，新增供给只能满足新增需求的一半。北上广都是住宅供给略低于住宅需求。</p>
+<p align="justify" height="0pt" width="2em"><img align="baseline" height="94" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_NONESCHEDULED/main/image/95_Image00020.jpg" width="600"/>
+</p>
+<p align="justify" height="0pt" width="2em">但要记住，我计算的是需求上限，在城市化速度下降／人口流入减慢／年轻人不结婚或者结婚也不买新房的情况下，需求是会降低的。</p>
+<p align="justify" height="0pt" width="2em">其他城市的数据太多，我就不一一写在答案里了。</p>
+<p align="justify" height="0pt" width="2em">
+<b>计算方式附注：</b>
+</p>
+<p align="justify" height="0pt" width="2em">1. 土地数据：<a href="http://www.landchina.com/default.aspx?tabid=263&amp;ComName=30">http://www.landchina.com/default.aspx?tabid=263&amp;ComName=30</a>
+  </p>
+<p align="justify" height="0pt" width="2em">2. 人口数据来自《2000 年人口普查分县资料》和《2010 年人口普查分县资料》</p>
+<p align="justify" height="0pt" width="2em">3. 本地城市化需求计算：自建房人口完全转移。</p>
+<p align="justify" height="0pt" width="2em">4. 外地流入需求计算：根据 2000 到 2010 年的自然增长率和实际人口增长计算年度流入速度，假设该速度在 2015—2020 年不改变。</p>
+<p align="justify" height="0pt" width="2em">5. 本地家庭裂变需求计算：第六次人口普查中 20～24 岁人口总数量除以 2，即假设他们在 2015—2020 年间全部结婚并成为新家庭。</p>
+<p align="justify" height="0pt" width="2em">2014-11-10</p>
+]]></description>
+    <pubDate>Mon, 10 Aug 2026 01:59:59 +0000</pubDate>
+    <guid isPermaLink="false">95</guid>
+</item>
+<item>
     <title>中国人口与城市 - 094 - 城市的集聚.epub</title>
     <description><![CDATA[<p style='color: #888;'>⏱ 预计阅读时间：17 分钟 (4145 字)</p><hr><p align="justify" height="0pt" width="3em">
 <font size="5">
